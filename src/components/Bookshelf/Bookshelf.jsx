@@ -65,3 +65,4 @@ const Bookshelf = () => {
   );
 };
 
+export default Bookshelf;
