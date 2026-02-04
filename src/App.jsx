@@ -1,12 +1,17 @@
-import { useState } from 'react'
-import reactLogo from './assets/react.svg'
-import viteLogo from '/vite.svg'
+// src/App.jsx
 import './App.css'
+import './index.css'
+import Bookshelf from './components/Bookshelf/Bookshelf.jsx'
 
-function App() {
-  const [count, setCount] = useState(0)
-
-  return <h1>Hello world!</h1>;
+const App = () => {
+  return (
+    <>
+    <div id="root">
+      <h1>My Bookshelf</h1>
+      <Bookshelf />
+    </div>
+    </>
+  );
 };
 
 export default App;
